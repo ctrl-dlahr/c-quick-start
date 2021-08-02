@@ -13,3 +13,8 @@ make
 ```
 ./bin/main
 ```
+
+## Clean up
+```
+make clean
+```
