@@ -15,8 +15,7 @@ CFLAGS += -I$(INCDIR) -I$(SRCDIR)
 # add here the source files for the compilation
 SOURCES = main.c
 
-# create the obj variable by substituting the extension of the sources
-# and adding a path
+# create the obj variable by substituting the extension of the sources and adding path
 _OBJ = $(SOURCES:.c=.o)
 OBJ = $(patsubst %,$(OBJDIR)/%,$(_OBJ))
 
